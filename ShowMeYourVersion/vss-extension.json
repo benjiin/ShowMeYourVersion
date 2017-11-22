@@ -1,0 +1,49 @@
+{
+  "manifestVersion": 1,
+  "id": "Show_Release",
+  "version": "0.1.0",
+  "name": "Zeige mir die aktuelle Version an",
+  "description": "Mit dieser Extension, soll die Release Version angezeigt werden",
+  "publisher": "internship",
+  "targets": [
+    {
+      "id": "Microsoft.TeamFoundation.Server",
+      "version": "[14.0,)" // Das "[" bedeutet das MINDESTENS Version 14.0 (TFS 2015) benötigt wird. Und das ")" beduetet das es aktuell nach oben skallieren kann was die Versionen angeht.
+    }
+  ],
+  "icons": {
+    "default": "images/logo.png"
+  },
+  "contributions": [
+    {
+      "id": "internship.Release",
+      "type": "ms.vss-web.hub",
+      "description": "Zeige mir den Release.",
+      "targets": [
+        "ms.vss-code-web.code-hub-group"
+      ],
+      "properties": {
+        "name": "Hello",
+        "order": 99,
+        "uri": "hello-world.html"
+      }
+    }
+  ],
+  "scopes": [
+    "vso.work"
+  ],
+  "files": [
+    {
+      "path": "hello-world.html",
+      "addressable": true
+    },
+    {
+      "path": "sdk/scripts",
+      "addressable": true
+    },
+    {
+      "path": "images/logo.png",
+      "addressable": true
+    }
+  ]
+}
