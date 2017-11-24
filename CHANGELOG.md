@@ -1,25 +1,20 @@
 # Road map
 
-- [x] A feature that has been completed
-- [ ] A feature that has NOT yet been completed
+- [x] Anfang
+- [x] Release anzeigen
+- [ ] Build erstellen
+- [ ] ...
 
-Features that have a checkmark are complete and available for
-download in the
-[CI build](http://vsixgallery.com/extension/8f4cbca6-eca0-474d-ae02-b7fea1f365f7/).
 
-# Change log
 
-These are the changes to each version that has been released
-on the official Visual Studio extension gallery.
 
-## 1.1
+## 0.1.0
+**22.11.2017**
+- [x] Zum laufen bekommen
 
-- [x] Feature 3
-- [x] Feature 4
-
-## 1.0
-
-- [x] Initial release
-- [x] Feature 1
-- [x] Feature 2
-  - [x] Sub feature
+## 0.1.1
+**23.11.2017**
+- [ ] Release anzeigen 
+  - [x] Work
+  - [x] Build und release
+  - [ ] 
